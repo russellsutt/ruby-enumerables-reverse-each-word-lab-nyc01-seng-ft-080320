@@ -8,5 +8,5 @@ def reverse_each_word(string)
   array1.each do |word|
     array2 << word.reverse
   end
-  array.join("")
+  array2.join("")
 end
