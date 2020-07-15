@@ -1,8 +1,11 @@
 def reverse_each_word(string)
   
-  array = []
+  array1 = []
+  array2 = []
   
   string.each do |word|
+    array1 << word
+    
     reverse_word = word.reverse
     array << reverse_word
   end
