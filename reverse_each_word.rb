@@ -1,12 +1,12 @@
 require 'pry'
 
 def reverse_each_word(string)
-  array
   
-  array << string.split
+  array = []
+  separate = string.split(" ")
   
-  array1.each do |word|
-    array2 << word.reverse
+  separate.each do |word|
+    array << word.reverse
   end
-  array2.join(" ")
+  array.join(" ")
 end
