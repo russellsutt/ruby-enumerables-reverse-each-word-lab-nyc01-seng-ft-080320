@@ -3,6 +3,8 @@ def reverse_each_word(string)
   array1 = []
   array2 = []
   
+  string.split
+  
   string.each do |word|
     array1 << word
     
